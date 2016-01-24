@@ -1,0 +1,176 @@
+languageCode = "de-DE"
+title = "Turmhof Wehrle Hohentengen a.H. - Ferienwohnung in Hohentengen am Hochrhein"
+
+[params]
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Turmhof Wehrle"
+	description = "Turmhof Wehrle Hohentengen a.H. - Ferienwohnung in Hohentengen am Hochrhein"
+
+	[params.sidebar]
+		# Replace the avatar with a picture of your own under static/images
+		avatar = "avatar.png"
+		# Use Markdown to format the string. This works nearly all over the theme
+		bio = "**Turmhof Wehrle**,<br>Wir vermieten eine Ferienwohnung<br>in Hohentengen am Hochrhein."
+		# The icons will be shown if you enter your username
+		twitter = ""
+		github = ""
+		dribbble = ""
+		facebook = ""
+
+		copyright = [
+			"&copy; Turmhof Wehrle",
+			"<a href='http://www.hohentengen.de/' target='_blank' title='external link to'>Hohentengen a.H.</a>"
+		]
+
+
+	[params.about]
+		title = "Herzlich Willkommen"
+		content = "Wir vermieten eine Ferienwohnung in Hohentengen am Hochrhein.<br><br>Genießen Sie die Natur und einen wunderschönen Ausblick über den Rhein bis hinüber in die Schweiz in unserer geräumigen und geschmackvoll eingerichteten Dachgeschoß-Ferienwohnung. Die Wohnung befindet sich in Lienheim / Gemeinde Hohentengen am Hochrhein. Direkt gegenüber dem schweizerischen Kaiserstuhl."
+
+
+	[params.portfolio]
+		title = "Die Ferienwohnung"
+
+		# The images and thumbnails are stored under static/images
+		# Create and change subfolders as you like
+		[[params.portfolio.gallery]]
+			image = "fulls/IMG_2849.jpg"
+			thumb = "thumbs/IMG_2849.jpg"
+			title = "Schlafzimmer Nord"
+			description = "Schlafen Sie wie ein Koenig."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/IMG_2851.jpg"
+			thumb = "thumbs/IMG_2851.jpg"
+			title = "Schlafzimmer Nord Schrank"
+			description = "Der Schrank bietet auch Platz fuer Ihren Mann."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/IMG_2852.jpg"
+			thumb = "thumbs/IMG_2852.jpg"
+			title = "Schlafzimmer Nord"
+			description = "Diese Betten quietschen nicht."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/IMG_2861.jpg"
+			thumb = "thumbs/IMG_2861.jpg"
+			title = "Schlafzimmer Nord"
+			description = "Wunderschoene Lampen leuchten Ihnen den Weg in ihre Traeume."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/IMG_2915.jpg"
+			thumb = "thumbs/IMG_2915.jpg"
+			title = "Schlafzimmer Sued"
+			description = "Ein einzigartiges Design steigert ihr Chakra."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/IMG_2923.jpg"
+			thumb = "thumbs/IMG_2923.jpg"
+			title = "Schlafzimmer Sued"
+			description = "Aus dem Schlafzimmer koennen Sie fast den Bauern bei der Arbeit beobachten."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/IMG_2879.jpg"
+			thumb = "thumbs/IMG_2879.jpg"
+			title = "Suedbalkon"
+			description = "Herrliche Aussicht auf die Schweiz"
+
+		[[params.portfolio.gallery]]
+			image = "fulls/IMG_2901.jpg"
+			thumb = "thumbs/IMG_2901.jpg"
+			title = "Wohnzimmer"
+			description = "Entspannen Sie bei einem Kasten Bier vor der Glotze."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/IMG_2904.jpg"
+			thumb = "thumbs/IMG_2904.jpg"
+			title = "Wohnzimmer Fernseher"
+			description = "Das Herzstueck der Wohnung"
+
+		[[params.portfolio.gallery]]
+			image = "fulls/IMG_2909.jpg"
+			thumb = "thumbs/IMG_2909.jpg"
+			title = "Esszimmer"
+			description = "Das Esszimmer liegt im Wohnzimmer"
+
+		[[params.portfolio.gallery]]
+			image = "fulls/IMG_2911.jpg"
+			thumb = "thumbs/IMG_2911.jpg"
+			title = "Esszimmer"
+			description = "Faszinierende Bilder von bekannten Kuenstlern schmuecken diese Waende."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/IMG_2928.jpg"
+			thumb = "thumbs/IMG_2928.jpg"
+			title = "Flur"
+			description = "Blick aus der Eingangstuere in das Wohn/Esszimmer (links) und Schlafzimmer Nord (rechts)."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/IMG_2931.jpg"
+			thumb = "thumbs/IMG_2931.jpg"
+			title = "Badezimmer"
+			description = "Garantiert keimfrei."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/IMG_2932.jpg"
+			thumb = "thumbs/IMG_2932.jpg"
+			title = "Badezimmer"
+			description = "Hier hat auch ein Kasten Bier noch Platz."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/k17.jpg"
+			thumb = "thumbs/k17.jpg"
+			title = "Kueche 1"
+			description = "Kochen Sie hier ihr Wunschgericht."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/k18.jpg"
+			thumb = "thumbs/k18.jpg"
+			title = "Kueche 2"
+			description = "Ihr Mann agiert als Spuelmaschine."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/k20.jpg"
+			thumb = "thumbs/k20.jpg"
+			title = "Kueche 3"
+			description = "Mikrowelle, Wasserkocher, Toaster und Herd: alles an seinem Platz. Blick von der Kueche Richtung Schlafzimmer sued."
+
+		[[params.portfolio.gallery]]
+			image = "fulls/IMG_2933.jpg"
+			thumb = "thumbs/IMG_2933.jpg"
+			title = "Hauseingang"
+			description = "Hier gehen sie rein und kommen wieder raus."
+
+
+	[params.contact]
+
+		address = [
+            "Joachim Wehrle",
+            "Ferienwohnung",
+            "Turmhof",
+            "79801 Hohentengen a.H.",
+            "Deutschland",
+		]
+		phone = "+49-7742-1314"
+
+		# Since this template is static, the contact form uses www.formspree.io as a
+		# proxy. The form makes a POST request to their servers to send the actual
+		# email. Visitors can send up to a 1000 emails each month for free.
+	    #
+	    # What you need to do for the setup?
+	    #
+	    # - set your email address under 'email' below
+	    # - upload the generated site to your server
+	    # - send a dummy email yourself to confirm your account
+	    # - click the confirm link in the email from www.formspree.io
+	    # - you're done. Happy mailing!
+		email = "turmhof.wehrle [AT] gmail.com"
+
+		[params.contact.form]
+			# Set custom strings for the form if your native
+			# language isn't English
+			name = "Name"
+			email = "Email"
+			message = "Buchungsanfrage"
+			submit = "Abschicken"
