@@ -11,7 +11,7 @@ title = "Turmhof Wehrle Hohentengen a.H. - Ferienwohnung in Hohentengen am Hochr
 		# Replace the avatar with a picture of your own under static/images
 		avatar = "avatar.png"
 		# Use Markdown to format the string. This works nearly all over the theme
-		bio = "**Turmhof Wehrle**,<br>Wir vermieten eine Ferienwohnung<br>in Hohentengen am Hochrhein."
+		bio = "**Turmhof Wehrle**,<p>Wir vermieten eine Ferienwohnung<br>in Hohentengen am Hochrhein.</p>"
 		# The icons will be shown if you enter your username
 		twitter = ""
 		github = ""
@@ -44,7 +44,7 @@ title = "Turmhof Wehrle Hohentengen a.H. - Ferienwohnung in Hohentengen am Hochr
 			image = "fulls/IMG_2851.jpg"
 			thumb = "thumbs/IMG_2851.jpg"
 			title = "Schlafzimmer Nord Schrank"
-			description = "Der Schrank bietet auch Platz fuer Ihren Mann."
+			description = "Der Schrank bietet auch Platz für Ihren Mann."
 
 		[[params.portfolio.gallery]]
 			image = "fulls/IMG_2852.jpg"
@@ -61,19 +61,19 @@ title = "Turmhof Wehrle Hohentengen a.H. - Ferienwohnung in Hohentengen am Hochr
 		[[params.portfolio.gallery]]
 			image = "fulls/IMG_2915.jpg"
 			thumb = "thumbs/IMG_2915.jpg"
-			title = "Schlafzimmer Sued"
+			title = "Schlafzimmer Süd"
 			description = "Ein einzigartiges Design steigert ihr Chakra."
 
 		[[params.portfolio.gallery]]
 			image = "fulls/IMG_2923.jpg"
 			thumb = "thumbs/IMG_2923.jpg"
-			title = "Schlafzimmer Sued"
+			title = "Schlafzimmer Süd"
 			description = "Aus dem Schlafzimmer koennen Sie fast den Bauern bei der Arbeit beobachten."
 
 		[[params.portfolio.gallery]]
 			image = "fulls/IMG_2879.jpg"
 			thumb = "thumbs/IMG_2879.jpg"
-			title = "Suedbalkon"
+			title = "Südbalkon"
 			description = "Herrliche Aussicht auf die Schweiz"
 
 		[[params.portfolio.gallery]]
@@ -86,7 +86,7 @@ title = "Turmhof Wehrle Hohentengen a.H. - Ferienwohnung in Hohentengen am Hochr
 			image = "fulls/IMG_2904.jpg"
 			thumb = "thumbs/IMG_2904.jpg"
 			title = "Wohnzimmer Fernseher"
-			description = "Das Herzstueck der Wohnung"
+			description = "Das Herzstück der Wohnung"
 
 		[[params.portfolio.gallery]]
 			image = "fulls/IMG_2909.jpg"
@@ -98,13 +98,13 @@ title = "Turmhof Wehrle Hohentengen a.H. - Ferienwohnung in Hohentengen am Hochr
 			image = "fulls/IMG_2911.jpg"
 			thumb = "thumbs/IMG_2911.jpg"
 			title = "Esszimmer"
-			description = "Faszinierende Bilder von bekannten Kuenstlern schmuecken diese Waende."
+			description = "Faszinierende Bilder von bekannten Künstlern schmücken diese Waende."
 
 		[[params.portfolio.gallery]]
 			image = "fulls/IMG_2928.jpg"
 			thumb = "thumbs/IMG_2928.jpg"
 			title = "Flur"
-			description = "Blick aus der Eingangstuere in das Wohn/Esszimmer (links) und Schlafzimmer Nord (rechts)."
+			description = "Blick aus der Eingangstüre in das Wohn/Esszimmer (links) und Schlafzimmer Nord (rechts)."
 
 		[[params.portfolio.gallery]]
 			image = "fulls/IMG_2931.jpg"
@@ -121,20 +121,20 @@ title = "Turmhof Wehrle Hohentengen a.H. - Ferienwohnung in Hohentengen am Hochr
 		[[params.portfolio.gallery]]
 			image = "fulls/k17.jpg"
 			thumb = "thumbs/k17.jpg"
-			title = "Kueche 1"
+			title = "Küche 1"
 			description = "Kochen Sie hier ihr Wunschgericht."
 
 		[[params.portfolio.gallery]]
 			image = "fulls/k18.jpg"
 			thumb = "thumbs/k18.jpg"
-			title = "Kueche 2"
-			description = "Ihr Mann agiert als Spuelmaschine."
+			title = "Küche 2"
+			description = "Ihr Mann agiert als Spülmaschine."
 
 		[[params.portfolio.gallery]]
 			image = "fulls/k20.jpg"
 			thumb = "thumbs/k20.jpg"
-			title = "Kueche 3"
-			description = "Mikrowelle, Wasserkocher, Toaster und Herd: alles an seinem Platz. Blick von der Kueche Richtung Schlafzimmer sued."
+			title = "Küche 3"
+			description = "Mikrowelle, Wasserkocher, Toaster und Herd: alles an seinem Platz. Blick von der Küche Richtung Schlafzimmer süd."
 
 		[[params.portfolio.gallery]]
 			image = "fulls/IMG_2933.jpg"
