@@ -8,7 +8,8 @@ fi
 
 rm -Rf public
 mkdir public
-$HUGO -v --baseUrl="//turmhof-wehrle.de" --cacheDir="./cache"
+$HUGO -v --baseUrl="//www.turmhof-wehrle.de" --cacheDir="./cache"
 cp -R static/robots.txt public/
+ln -s ../piwik public/piwik
 ./syncFolders-push.sh
 # git push
