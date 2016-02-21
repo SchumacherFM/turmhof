@@ -1,0 +1,7 @@
+Die Anfrage von der Website turmhof-wehrle.de enthaelt folgendes:
+
+{{ range $key, $value := .Form }}
+{{$key}}:   {{$value}}
+{{end}}
+
+Ihr Mail Daemon!

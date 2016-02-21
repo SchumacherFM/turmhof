@@ -29,27 +29,25 @@
   </div>
   <div class="row" id="contact-form">
     <div class="8u 12u$(small)">
-      <!--<form action="mailto:{{ .Site.Params.contact.email }}" method="POST">-->
-        <!--<div class="row uniform 50%">-->
-          <!--<input type="hidden" name="subject" value="Buchungsanfrage"/>-->
-          <!--<div class="6u 12u$(xsmall)">-->
-            <!--<input type="text" name="name" id="name"-->
-                   <!--placeholder="{{ .Site.Params.contact.form.name }}" required/>-->
-          <!--</div>-->
-          <!--<div class="6u$ 12u$(xsmall)">-->
-            <!--<input type="email" name="_replyto" name="email" id="email"-->
-                   <!--placeholder="{{ .Site.Params.contact.form.email }}" required/>-->
-          <!--</div>-->
-          <!--<div class="12u$">-->
-            <!--<textarea name="message" id="message" placeholder="{{ .Site.Params.contact.form.message }}"-->
-                      <!--rows="4" required></textarea>-->
-          <!--</div>-->
-          <!--<input type="text" name="_gotcha" style="display:none"/>-->
-          <!--<ul class="actions">-->
-            <!--<li><input type="submit" value="{{ .Site.Params.contact.form.submit }}"/></li>-->
-          <!--</ul>-->
-        <!--</div>-->
-      <!--</form>-->
+      <form action="//www.turmhof-wehrle.de/s3ndma1l" method="POST">
+        <div class="row uniform 50%">
+          <div class="6u 12u$(xsmall)">
+            <input type="text" name="name" id="name"
+                   placeholder="{{ .Site.Params.contact.form.name }}" required/>
+          </div>
+          <div class="6u$ 12u$(xsmall)">
+            <input type="email" name="email" id="email"
+                   placeholder="{{ .Site.Params.contact.form.email }}" required/>
+          </div>
+          <div class="12u$">
+            <textarea name="message" id="message" placeholder="{{ .Site.Params.contact.form.message }}"
+                      rows="4" required></textarea>
+          </div>
+          <ul class="actions">
+            <li><input type="submit" value="{{ .Site.Params.contact.form.submit }}"/></li>
+          </ul>
+        </div>
+      </form>
     </div>
     <div class="4u$ 12u$(small)">
       <ul class="labeled-icons">

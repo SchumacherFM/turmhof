@@ -9,7 +9,7 @@ fi
 rm -Rf public
 mkdir public
 $HUGO -v --baseUrl="//www.turmhof-wehrle.de" --cacheDir="./cache"
-cp -R static/robots.txt public/
+cp -R static/*.* public/
 ln -s ../piwik public/piwik
 ./syncFolders-push.sh
 # git push
