@@ -142,18 +142,7 @@ title = "Turmhof Wehrle Hohentengen a.H. - Ferienwohnung in Hohentengen am Hochr
 		]
 		phone = "+49-7742-1314"
 
-		# Since this template is static, the contact form uses www.formspree.io as a
-		# proxy. The form makes a POST request to their servers to send the actual
-		# email. Visitors can send up to a 1000 emails each month for free.
-	    #
-	    # What you need to do for the setup?
-	    #
-	    # - set your email address under 'email' below
-	    # - upload the generated site to your server
-	    # - send a dummy email yourself to confirm your account
-	    # - click the confirm link in the email from www.formspree.io
-	    # - you're done. Happy mailing!
-		email = "turmhof.wehrle [at] gmail.com"
+		email = "turmhof.wehrle@gmail.com"
 
 		[params.contact.form]
 			# Set custom strings for the form if your native

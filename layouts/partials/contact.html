@@ -1,7 +1,7 @@
 <!-- Three -->
 <section id="three">
   <h2>Buchungsanfrage</h2>
-  <p> Zur Buchungsanfrage rufen Sie uns bitte an oder schicken Sie uns eine eMail.</p>
+  <p> Zur Buchungsanfrage rufen Sie uns bitte an oder schicken Sie uns eine eMail oder nutzen unten stehendes Kontaktformular.</p>
   <p>Unser Hof beinhaltet eine kleine Landwirtschaft mit Weidebetrieb. Aus diesem Grund können leider keine Haustiere
     mitgebracht werden. Vielen Dank für Ihr Verständnis.</p>
 
@@ -29,20 +29,34 @@
   </div>
   <div class="row" id="contact-form">
     <div class="8u 12u$(small)">
+      <div style="display: none;" id="contact-thx">
+        <h3 class="icon fa-send"><span class="label"></span> Vielen Dank für Ihre Anfrage!<br>Wir werden uns umgehend bei Ihnen melden.</h3>
+      </div>
       <form action="//www.turmhof-wehrle.de/s3ndma1l" method="POST">
+        <!--Email sending via CaddyServer with middleware https://github.com/SchumacherFM/mailout-->
         <div class="row uniform 50%">
-          <div class="6u 12u$(xsmall)">
+          <div class="6u 12u$(xsmall)" title="Ihr Name">
             <input type="text" name="name" id="name"
                    placeholder="{{ .Site.Params.contact.form.name }}" required/>
           </div>
-          <div class="6u$ 12u$(xsmall)">
+          <div class="6u$ 12u$(xsmall)" title="E-Mail Adresse">
             <input type="email" name="email" id="email"
                    placeholder="{{ .Site.Params.contact.form.email }}" required/>
           </div>
-          <div class="12u$">
+          <div class="12u$" title="Ihre Buchungsanfrage">
             <textarea name="message" id="message" placeholder="{{ .Site.Params.contact.form.message }}"
                       rows="4" required></textarea>
           </div>
+
+          <div class="6u 12u$(xsmall)" title="Zeitraum von">
+            <h3 class="icon fa-bed"> Von:</h3>
+            <input type="date" name="Zeitraum_von"/>
+          </div>
+          <div class="6u$ 12u$(xsmall)" title="Zeitraum bis">
+            <h3 class="icon fa-bed"> Bis:</h3>
+            <input type="date" name="Zeitraum_bis"/>
+          </div>
+
           <ul class="actions">
             <li><input type="submit" value="{{ .Site.Params.contact.form.submit }}"/></li>
           </ul>
@@ -68,7 +82,7 @@
         {{ if isset .Site.Params.contact "email" }}
         <li>
           <h3 class="icon fa-envelope-o"><span class="label"></span></h3>
-          <a href="#">{{ .Site.Params.contact.email }}</a>
+          <a href="mailto:{{ .Site.Params.contact.email }}">{{ .Site.Params.contact.email }}</a>
         </li>
         {{ end }}
       </ul>

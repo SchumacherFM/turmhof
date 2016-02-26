@@ -50,6 +50,32 @@
         // Fix: Placeholder polyfill.
         $form.placeholder();
 
+        $form.submit(function (e) {
+            e.preventDefault();
+
+            $.ajax({
+                    type     : 'POST',
+                    url      : $form.attr('action'),
+                    data     : $form.serialize(),
+                    dataType : 'json',
+                    encode   : true
+                })
+                .done(function (data) {
+                    console.log('data', data);
+                    if (!data.error) {
+                        $('#contact-thx').show();
+                        $form.hide();
+                        return;
+                    }
+                    alert("Ein Fehler ist aufgetreten: " + data.error);
+                })
+                .fail(function (data) {
+                    console.log('data', data);
+                    alert("Ein Fehler ist aufgetreten.");
+                });
+
+        });
+
         // Prioritize "important" elements on medium.
         skel.on('+medium -medium', function () {
             $.prioritize(

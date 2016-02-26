@@ -5,3 +5,6 @@ Die Anfrage von der Website turmhof-wehrle.de enthaelt folgendes:
 {{end}}
 
 Ihr Mail Daemon!
+
+RemoteAddr: {{.Request.RemoteAddr}}
+Browser: {{.Request.Header.Get "User-Agent" }}
