@@ -57,6 +57,14 @@
             <input type="date" name="Zeitraum_bis"/>
           </div>
 
+          <div class="12u$" >
+            <p>Spamschutz: Bitte geben Sie die Buchstaben im Bild in das untere Feld ein:</p>
+            <img id="captcha" src="/s3ndma1l/captcha"/>
+            <input type="text" id="captcha_text" name="captcha_text" class="form-control"
+                   placeholder="Captcha text" aria-required="true" required="required">
+          </div>
+
+
           <ul class="actions">
             <li><input type="submit" value="{{ .Site.Params.contact.form.submit }}"/></li>
           </ul>
