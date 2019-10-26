@@ -32,7 +32,7 @@
       <div style="display: none;" id="contact-thx">
         <h3 class="icon fa-send"><span class="label"></span> Vielen Dank für Ihre Anfrage!<br>Wir werden uns umgehend bei Ihnen melden.</h3>
       </div>
-      <form action="//www.turmhof-wehrle.de/s3ndma1l" method="POST">
+      <form data-netlify="true" name="turmhofKontakt" method="POST">
         <!--Email sending via CaddyServer with middleware https://github.com/SchumacherFM/mailout-->
         <div class="row uniform 50%">
           <div class="6u 12u$(xsmall)" title="Ihr Name">
@@ -57,13 +57,9 @@
             <input type="date" name="Zeitraum_bis"/>
           </div>
 
-          <div class="12u$" >
-            <p>Spamschutz: Bitte geben Sie die Buchstaben im Bild in das untere Feld ein:</p>
-            <img id="captcha" src="/s3ndma1l/captcha"/>
-            <input type="text" id="captcha_text" name="captcha_text" class="form-control"
-                   placeholder="Captcha text" aria-required="true" required="required">
-          </div>
-
+          <p class="hidden">
+             <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+           </p>
 
           <ul class="actions">
             <li><input type="submit" value="{{ .Site.Params.contact.form.submit }}"/></li>
